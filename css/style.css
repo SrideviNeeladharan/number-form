@@ -1,0 +1,84 @@
+/* Styles go here */
+html
+{
+ background-color: black; 
+}
+#main
+{
+  width:70%;
+  height: auto;
+  margin: auto;
+  text-align: center;
+  background-color:skyblue;
+  border:5px solid black;
+  
+}
+
+h1
+{
+  margin-top:2em;
+  text-align: center;
+  background-color: white;
+  padding:1em;
+
+}
+
+#myForm
+{
+ margin:3em; 
+}
+
+label
+{
+  font-family:sans-serif;
+  font-size: large;
+  
+}
+#reset
+{
+  background-color: cornflowerblue;
+  border:1px solid black;
+  padding:7px;
+  font-size:large;
+  font-weight:500;
+}
+#submitButton
+{
+  background-color: lawngreen;
+  border:1px solid black;
+  padding:7px;
+  font-size:large;
+  font-weight:500;
+}
+table
+{
+  padding:1em;
+  margin-top: 5em;
+  margin-left:15em;
+  margin-bottom: 5em;
+  border:5px solid black;
+  width:50%;
+  background-color:white;
+  text-align: center;
+  font-size:large;
+  font-weight:500;
+  
+}
+tr, th, td
+{
+  padding:3px;
+  border:1px solid black;
+}
+input
+{
+  padding:1em;
+  
+}
+
+input:required:valid {
+    background-image: url(../images/thumbsup.png);
+    background-position: center;
+    background-repeat: no-repeat;
+  background-size: contain;
+ 
+  }
