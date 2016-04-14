@@ -2,6 +2,7 @@
 <html>
 
   <head>
+        <title>number-form</title>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <link rel="stylesheet" type="text/css" href="/css/style.css">
@@ -18,7 +19,7 @@
     
     <form id="myForm">
       <label>Please enter a number</label>
-      <input type="number" id="inputBox" name="enterNumber" placeholder="Please enter only numbers" required pattern="^[0-9]" 
+      <input type="number" id="inputBox" name="enterNumber" placeholder="Please enter only numbers" required
              onkeypress="if ( isNaN( String.fromCharCode(event.keyCode) )) return false;">
       <input type="submit" id="submitButton" name="submit" value="SUBMIT" >
       <input type="submit" id="reset" onclick="resetForm" value="RESET">

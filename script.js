@@ -41,16 +41,14 @@ function median(sortedArr) {
              }     
              
             var sortedArr = arrayList.sort(function(num1, num2) {return num1 - num2;});
-            debugger;
-            var variance = Number(tableVal)-(Number(total/arrayList.length));
-            var sqVar = variance ^ variance;
+          
+            
             
              //displaying total, average, median
             $("#lblCount").html(arrayList.length);
             $("#lblTotal").html(total);
             $("#lblAvg").html(total/arrayList.length);           
             $("#lblMed").html(median(sortedArr));   
-            $("#lblStd").html(sqVar);   
             
             
            
@@ -61,4 +59,7 @@ function median(sortedArr) {
   });
 
 
+/*var variance = Number(tableVal)-(Number(total/arrayList.length));
+var sqVar = variance ^ variance;
+$("#lblStd").html(sqVar);*/   
 
